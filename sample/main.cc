@@ -12,6 +12,8 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <cstdint> // include this header for uint64_t
+#include <array>
 #include "license-manager.h"
 
 int main(int argc, char* argv[])
