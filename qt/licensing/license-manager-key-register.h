@@ -1,0 +1,25 @@
+//
+//  license-manager.h
+//  License++ CLI
+//
+//  Copyright © 2018-present @abumq (Majid Q.)
+//
+//  See https://github.com/abumq/licensepp/blob/master/LICENSE
+//
+
+#ifndef LicenseManagerKeyRegister_h
+#define LicenseManagerKeyRegister_h
+
+#include <array>
+#include <string>
+#include <vector>
+#include <license++/issuing-authority.h>
+
+class LicenseManagerKeyRegister
+{
+public:
+    static const std::array<unsigned char, 16> LICENSE_MANAGER_SIGNATURE_KEY;
+
+    static const std::vector<licensepp::IssuingAuthority> LICENSE_ISSUING_AUTHORITIES;
+};
+#endif // LicenseManagerKeyRegister_h
